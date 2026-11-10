@@ -1,4 +1,4 @@
-# limen-plugin
+# limen-plugins
 
 Limen 的插件市场：一份静态清单 + 一堆插件 ZIP，没有任何服务端。客户端读 `market/index.json`，按清单里的地址下载插件包，校验 `size` 与 `sha256` 后交给本机安装器。
 

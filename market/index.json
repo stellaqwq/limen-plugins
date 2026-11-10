@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "Limen 插件市场",
-  "updated_at": "2026-11-10T22:54:52.589Z",
+  "updated_at": "2026-11-10T23:12:49.325Z",
   "plugins": [
     {
       "id": "android",
@@ -18,6 +18,20 @@
       "size": 10181,
       "sha256": "3cc1d9171d3ee878d3c6c8eb40d100637253beaeb7d183aec78e2d36d054b842",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/android-1.0.0.zip"
+    },
+    {
+      "id": "autonomous-thought",
+      "kind": "autonomous-thought",
+      "api": 1,
+      "name": "自主思考 · 独处日记",
+      "version": "2.11.0",
+      "description": "把 /think 指令与「刷抖音」开关转给本机独立后台：看日记、看视频摘要、看思考状态、安排下一轮思考。需要先启动独立包的后台进程。",
+      "capabilities": [
+        "message"
+      ],
+      "size": 7112,
+      "sha256": "0b1a550cc6a46630925bd123343636d7b9feb175e68f89995bfe8253287e05fa",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugins/main/market/packages/autonomous-thought-2.11.0.zip"
     },
     {
       "id": "background",

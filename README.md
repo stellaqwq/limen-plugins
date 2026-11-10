@@ -31,6 +31,7 @@ https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/index.json
 | id | 名称 | 版本 |
 | --- | --- | --- |
 | `android` | 安卓视频浏览 | 1.0.0 |
+| `autonomous-thought` | 自主思考 · 独处日记 | 2.11.0 |
 | `background` | 背景壁纸 | 1.0.0 |
 | `comfyui` | ComfyUI 生图 | 2.2.0 |
 | `douyin-web` | 抖音网页浏览 | 1.0.0 |

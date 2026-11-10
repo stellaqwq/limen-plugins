@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "Limen 插件市场",
-  "updated_at": "2026-11-10T22:51:07.726Z",
+  "updated_at": "2026-11-10T22:54:24.715Z",
   "plugins": [
     {
       "id": "android",
@@ -16,7 +16,7 @@
         "admin-api"
       ],
       "size": 10181,
-      "sha256": "036eeb20a30625e7f026342fcbd70451fe97e0cd53d2fc0e7e20e16cecf18284",
+      "sha256": "a2929e4ff000e7b9429124eadeeea0b522ba8bcd99ca57c53052227b3743da50",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/android-1.0.0.zip"
     },
     {
@@ -30,7 +30,7 @@
         "admin-api"
       ],
       "size": 5866,
-      "sha256": "7d9bb91a8277dfaa1673278fec4e75356b55758ccadf454e74dfd0e3532d7bd1",
+      "sha256": "1824abaee2f1ae378c12b3aa46b64797a7e75680e3cdab1cdf7f8f3390cbd739",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/background-1.0.0.zip"
     },
     {
@@ -46,7 +46,7 @@
         "admin-api"
       ],
       "size": 13843,
-      "sha256": "a650e1634eb0a9b430965754e4ece008ef975ac306061d17a53a41663d8f04b3",
+      "sha256": "f008639550774165c0fe03a7c14fa56a9a660509d8dd0fd65b386b16c3a007fb",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/comfyui-2.2.0.zip"
     },
     {
@@ -64,7 +64,7 @@
         "admin-api"
       ],
       "size": 58019,
-      "sha256": "d673de75c2c158d99789dd866a8c2bc0efbe1507b185cc8aa2a4815639259026",
+      "sha256": "2ebe947c007285402dc2e074f76b260deb2f622d14a5893dd3e871e38a40d929",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/douyin-web-1.0.0.zip"
     },
     {
@@ -80,7 +80,7 @@
         "admin-api"
       ],
       "size": 12058,
-      "sha256": "c58f3854d72efaf84a20add340b8567c75be327f158ecb9b46ca60f918e3d7fe",
+      "sha256": "9ef05455cf21051e767b06bbe3fe4ee485590205c2dfb982755d72da3ff1444e",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/emotion-1.0.0.zip"
     },
     {
@@ -96,7 +96,7 @@
         "admin-api"
       ],
       "size": 10489,
-      "sha256": "5ffc39cdcf1b2dc3a2b6e3d877624aada2d6965955b3bfb27e60fde79180813b",
+      "sha256": "38c36248d468d91b8a0f8583ced769f90d5115cedbfa59580c69e03afb9fc0da",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/free-activity-1.1.0.zip"
     },
     {
@@ -112,7 +112,7 @@
         "admin-api"
       ],
       "size": 20089,
-      "sha256": "b2e7767f1a3898adb8fead9423063b1a38fb5d06b049a8f59d23ed80b2c77ebe",
+      "sha256": "f8d7e87a416fb9aa77c2cff6735a7ba76af6ba2520ca72d795c66d98bf8a8477",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/group-chat-plus-1.1.0.zip"
     },
     {
@@ -129,7 +129,7 @@
         "admin-api"
       ],
       "size": 14393,
-      "sha256": "b2bae10254b5f384804fbc9194f633ed63ec0ab01536af25ec2daabf84b5b36b",
+      "sha256": "b3c16ec80342bf655db3194ac3a01d81b4d8e4dc1bff25209c156ae1621308a2",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/living-memory-1.0.0.zip"
     },
     {
@@ -146,7 +146,7 @@
         "hooks"
       ],
       "size": 9937,
-      "sha256": "c4e5596ea8e1eaf71b2d6ee68c003aa500f30d232677d1ac5e69e19ade82c0e5",
+      "sha256": "812a20afd1dfad44e4cebff945d74a2a54da7af7e4f69acf8324c45e530f35c3",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/memes-1.0.0.zip"
     },
     {
@@ -160,7 +160,7 @@
         "admin-api"
       ],
       "size": 9836,
-      "sha256": "416cc3b40027dfc4ee214ef03efa144051805f3b6d3c6f35952fb166518b84b5",
+      "sha256": "0b1079ac708100a204e24e663bc93da225cd5f9eff45021f50f98f1c376b7a45",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/startup-animation-1.1.0.zip"
     },
     {
@@ -177,7 +177,7 @@
         "admin-api"
       ],
       "size": 27333,
-      "sha256": "5e72d22b7167bf3cf4ce4b0532c1020528924c145527d6e878c59b206c8cc0ec",
+      "sha256": "aa4ce2225ec31fdcaac6b394f0e4654bbbabe0ffc9e44e8523e3765fecdcfeb1",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/video-2.0.0.zip"
     },
     {
@@ -194,7 +194,7 @@
         "hooks"
       ],
       "size": 8781,
-      "sha256": "85cd3d1769fcec68588ec31d0c4da98ba758bd6158fc498b511c2ece52670a39",
+      "sha256": "ae7c26fd4380b78d8174ba883f2299d04043dcfa58bb3ec5c495cff38116e6a5",
       "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/voicestudio-1.0.0.zip"
     }
   ],

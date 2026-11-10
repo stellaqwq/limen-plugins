@@ -1,5 +1,6 @@
-// 校验 market/index.json 与 packages/ 是否一致：条目字段、版本号、字节数与 SHA-256。
-// CI 与本地都能跑：node scripts/validate-market.mjs [--dir market]
+// 校验市场清单与 packages/ 是否一致：条目字段、版本号、字节数与 SHA-256。
+// 发布前先跑一遍，CI 里也跑同一份：
+//   node scripts/validate-market.mjs --dir dist/market
 import { createHash } from 'node:crypto';
 import { readFile, readdir } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
@@ -10,7 +11,7 @@ const argument = (name, fallback) => {
   return index >= 0 && process.argv[index + 1] ? process.argv[index + 1] : fallback;
 };
 
-const dir = resolve(argument('dir', 'market'));
+const dir = resolve(argument('dir', 'dist/market'));
 const problems = [];
 const catalog = JSON.parse(await readFile(join(dir, 'index.json'), 'utf8'));
 

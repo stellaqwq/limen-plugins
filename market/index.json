@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "name": "Limen 插件市场",
+  "updated_at": "2026-11-10T22:51:07.726Z",
+  "plugins": [
+    {
+      "id": "android",
+      "kind": "android-device",
+      "api": 1,
+      "name": "安卓视频浏览",
+      "version": "1.0.0",
+      "description": "通过指定 ADB 设备采样手机画面，让视觉模型在条数和时间上限内观看、上滑视频。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "admin-api"
+      ],
+      "size": 10181,
+      "sha256": "036eeb20a30625e7f026342fcbd70451fe97e0cd53d2fc0e7e20e16cecf18284",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/android-1.0.0.zip"
+    },
+    {
+      "id": "background",
+      "kind": "background",
+      "api": 1,
+      "name": "背景壁纸",
+      "version": "1.0.0",
+      "description": "上传一张本机图片作为工作台背景，可调整适应方式、模糊、白色遮罩与面板不透明度。不处理聊天消息。",
+      "capabilities": [
+        "admin-api"
+      ],
+      "size": 5866,
+      "sha256": "7d9bb91a8277dfaa1673278fec4e75356b55758ccadf454e74dfd0e3532d7bd1",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/background-1.0.0.zip"
+    },
+    {
+      "id": "comfyui",
+      "kind": "comfyui",
+      "api": 1,
+      "name": "ComfyUI 生图",
+      "version": "2.2.0",
+      "description": "模型批量调用 ComfyUI 生图，支持逐个调整工作流 LoRA 的模型/CLIP 强度、排队、多图回复和生成图片上下文回看。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "admin-api"
+      ],
+      "size": 13843,
+      "sha256": "a650e1634eb0a9b430965754e4ece008ef975ac306061d17a53a41663d8f04b3",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/comfyui-2.2.0.zip"
+    },
+    {
+      "id": "douyin-web",
+      "kind": "douyin-web",
+      "api": 1,
+      "name": "抖音网页浏览",
+      "version": "1.0.0",
+      "description": "使用独立 Chrome 窗口采样抖音画面，让视觉模型在条数和时间上限内观看并切换视频。登录和验证由用户完成。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "hooks",
+        "browser",
+        "admin-api"
+      ],
+      "size": 58019,
+      "sha256": "d673de75c2c158d99789dd866a8c2bc0efbe1507b185cc8aa2a4815639259026",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/douyin-web-1.0.0.zip"
+    },
+    {
+      "id": "emotion",
+      "kind": "psychodynamic-emotion",
+      "api": 1,
+      "name": "心绪 · 心理动力情绪",
+      "version": "1.0.0",
+      "description": "借鉴本我、自我与超我的协调机制：情绪积累与恢复、熟悉感、情境共情和克制表达。",
+      "capabilities": [
+        "message",
+        "hooks",
+        "admin-api"
+      ],
+      "size": 12058,
+      "sha256": "c58f3854d72efaf84a20add340b8567c75be327f158ecb9b46ca60f918e3d7fe",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/emotion-1.0.0.zip"
+    },
+    {
+      "id": "free-activity",
+      "kind": "free-activity",
+      "api": 1,
+      "name": "自由活动",
+      "version": "1.1.0",
+      "description": "让角色按自己的意愿安排一轮活动，支持定时与停止指令。",
+      "capabilities": [
+        "message",
+        "hooks",
+        "admin-api"
+      ],
+      "size": 10489,
+      "sha256": "5ffc39cdcf1b2dc3a2b6e3d877624aada2d6965955b3bfb27e60fde79180813b",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/free-activity-1.1.0.zip"
+    },
+    {
+      "id": "group-chat-plus",
+      "kind": "group-chat-plus",
+      "api": 1,
+      "name": "群聊增强 Chat Plus",
+      "version": "1.1.0",
+      "description": "群聊消息观察、AI 读空气、消息合并与后端主动聊天，支持群专属配置与管理指令。",
+      "capabilities": [
+        "message",
+        "hooks",
+        "admin-api"
+      ],
+      "size": 20089,
+      "sha256": "b2e7767f1a3898adb8fead9423063b1a38fb5d06b049a8f59d23ed80b2c77ebe",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/group-chat-plus-1.1.0.zip"
+    },
+    {
+      "id": "living-memory",
+      "kind": "living-memory",
+      "api": 1,
+      "name": "流动记忆 Living Memory",
+      "version": "1.0.0",
+      "description": "回复前召回长期记忆，回复确认后累计对话并后台总结，提供 3D 记忆管理页。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "hooks",
+        "admin-api"
+      ],
+      "size": 14393,
+      "sha256": "b2bae10254b5f384804fbc9194f633ed63ec0ab01536af25ec2daabf84b5b36b",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/living-memory-1.0.0.zip"
+    },
+    {
+      "id": "memes",
+      "kind": "meme-manager",
+      "api": 1,
+      "name": "表情包管理器",
+      "version": "1.0.0",
+      "description": "本地分类图库、聊天收集审核与去重，支持分类发图和 AI 回复选图。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "admin-api",
+        "hooks"
+      ],
+      "size": 9937,
+      "sha256": "c4e5596ea8e1eaf71b2d6ee68c003aa500f30d232677d1ac5e69e19ade82c0e5",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/memes-1.0.0.zip"
+    },
+    {
+      "id": "startup-animation",
+      "kind": "startup-animation",
+      "api": 1,
+      "name": "启动动画",
+      "version": "1.1.0",
+      "description": "桌面启动窗口与工作台首屏播放同一段自定义启动动画：可用内置样式或上传本机视频当片头，风格、底色、标题文案、强调色、Logo、过渡与节奏都可调整。不处理聊天消息。",
+      "capabilities": [
+        "admin-api"
+      ],
+      "size": 9836,
+      "sha256": "416cc3b40027dfc4ee214ef03efa144051805f3b6d3c6f35952fb166518b84b5",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/startup-animation-1.1.0.zip"
+    },
+    {
+      "id": "video",
+      "kind": "video-analysis",
+      "api": 1,
+      "name": "视频理解",
+      "version": "2.0.0",
+      "description": "分镜宫格、局部回看、带实际时间的抽帧和按需对白转写；先看结构，再细看内容。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "media",
+        "admin-api"
+      ],
+      "size": 27333,
+      "sha256": "5e72d22b7167bf3cf4ce4b0532c1020528924c145527d6e878c59b206c8cc0ec",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/video-2.0.0.zip"
+    },
+    {
+      "id": "voicestudio",
+      "kind": "voicestudio",
+      "api": 1,
+      "name": "本地 VoiceStudio",
+      "version": "1.0.0",
+      "description": "接入本地 VoiceStudio 服务，按概率把文字回复转为语音，并提供语音工具。",
+      "capabilities": [
+        "message",
+        "agent-tools",
+        "admin-api",
+        "hooks"
+      ],
+      "size": 8781,
+      "sha256": "85cd3d1769fcec68588ec31d0c4da98ba758bd6158fc498b511c2ece52670a39",
+      "url": "https://raw.githubusercontent.com/stellaqwq/limen-plugin/main/market/packages/voicestudio-1.0.0.zip"
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,29 @@
+# 推送清单或插件包后校验一致性：条目字段、版本号、size 与 sha256 必须对得上。
+#
+# 客户端只看 index.json 里写的字节数与校验值，写错就是安装失败，
+# 所以在仓库这一层就把不一致挡掉：任何一次 push 到 market/ 都会跑一遍。
+name: 校验市场清单
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'market/**'
+      - 'scripts/validate-market.mjs'
+      - '.github/workflows/validate-market.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 校验 market/index.json 与 packages/
+        run: node scripts/validate-market.mjs --dir market
